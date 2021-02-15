@@ -65,7 +65,7 @@ function Navbar({ handleSearch }) {
       ref={navRef}
       className="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent"
     >
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         Logo
       </a>
       <button
@@ -80,17 +80,7 @@ function Navbar({ handleSearch }) {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav mr-auto">
-          <a className="nav-link nav-border" href="#">
-            Home
-          </a>
-          <a className="nav-link nav-border" href="#">
-            Features
-          </a>
-          <a className="nav-link nav-border" href="#">
-            Pricing
-          </a>
-        </div>
+        <div className="navbar-nav mr-auto"></div>
         <SearchContainer class="form-inline" ref={inputRef}>
           <Search
             className="form-control mr-sm-2"
