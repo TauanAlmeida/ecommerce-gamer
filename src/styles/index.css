@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-border {
+  border-bottom: 2px solid transparent;
+}
+.nav-border:hover {
+  border-bottom: 2px solid #f9826c;
+}
+
+.notice-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.notice-container img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.notice-container > .card {
+  height: inherit;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.notice-container .card:hover img {
+  transform: scale(1.1);
+}
+
+.news-main .desc {
+  margin-top: 10.2em;
+  font-size: 28px !important;
+  line-height: 32px !important;
+  background-size: auto;
+}
+
+.desc-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+.news-maker .desc {
+  margin-top: 2.5em;
+  font-size: 28px !important;
+  line-height: 32px !important;
+}
+
+.card-img {
+  filter: brightness(70%);
+}
+
+.news-main {
+  background-color: #ccc;
+  height: 415px;
+  margin: 2px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.news-maker {
+  background-color: #ccc;
+  height: 200px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.dropdown-item {
+  cursor: pointer;
+}
+
+.card-height {
+  min-height: 395px;
+  max-height: 395px;
+  cursor: pointer;
+}
+
+.conferir {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.card-height:hover .conferir {
+  opacity: 1;
+}
+
+.social-work .nav-link:hover {
+  color: #f9826c;
+}
+.social-work .nav-link {
+  color: #fff;
+}
+
+footer .dropdown-divider {
+  border-top: 1px solid #343a40;
+}
+
+.navbar-transparent {
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.cart-menu {
+  width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .card-img-top {
+    width: 300px !important;
+    display: block;
+    margin: 0 auto;
+  }
+}
